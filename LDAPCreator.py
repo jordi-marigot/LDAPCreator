@@ -29,7 +29,7 @@ if accio == 1:
             file.write("objectClass: posixGroup" + os.linesep + os.linesep)
             file.write("dn: uid="+userName+",ou="+group+",dc=joviat,dc=cat" + os.linesep)
             file.write("uid: "+uidUser + os.linesep)
-            file.write("uidNumber: 2000"+ str(i) + os.linesep)
+            file.write("uidNumber: 2000"+ str(i+5) + os.linesep)
             file.write("uidNumber: 20001" + os.linesep)
             file.write("cn: "+userName + os.linesep)
             file.write("sn: "+userSecondName + os.linesep)
