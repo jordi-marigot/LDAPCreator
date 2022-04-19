@@ -1,0 +1,43 @@
+dn: ou=gerencia,dc=joviat,dc=cat
+ou: gerencia
+objectClass:organizationalUnit
+
+dn: ou=administracio,dc=joviat,dc=cat
+ou: administracio
+objectClass:organizationalUnit
+
+dn: ou=vendes,dc=joviat,dc=cat
+ou: vendes
+objectClass:organizationalUnit
+
+dn: ou=magatzem,dc=joviat,dc=cat
+ou: magatzem
+objectClass:organizationalUnit
+
+dn: ou=manteniment,dc=joviat,dc=cat
+ou: manteniment
+objectClass:organizationalUnit
+
+dn: ou=director de vendes,ou=vendes,dc=joviat,dc=cat
+ou: director de vendes
+objectClass:organizationalUnit
+
+dn: ou=comercial,ou=vendes,dc=joviat,dc=cat
+ou: comercial
+objectClass:organizationalUnit
+
+dn: ou=clients,ou=vendes,dc=joviat,dc=cat
+ou: clients
+objectClass:organizationalUnit
+
+dn: ou=proveidors,ou=vendes,dc=joviat,dc=cat
+ou: proveidors
+objectClass:organizationalUnit
+
+dn: ou=cap de magatzem,ou=magatzem,dc=joviat,dc=cat
+ou: cap de magatzem
+objectClass:organizationalUnit
+
+dn: ou=mosso de magatzem,ou=magatzem,dc=joviat,dc=cat
+ou: mosso de magatzem
+objectClass:organizationalUnit
